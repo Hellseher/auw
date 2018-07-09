@@ -1,0 +1,17 @@
+#+TITLE: AWS the UNIX way
+
+** Sinopsis
+Wrapers around AWS Python API (boto) to symplify working on AWS for \*nix users.
+
+** Commands
+#+BEGIN_SRC sh :results value org replace :exports results
+grep -roP "(?<=Synopsis).*" ./bin | sed -e 's/<//' -e 's/>//'
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_SRC org
+./bin/a-ls: : AWS list all instances
+#+END_SRC
+
+** References
+- https://github.com/boto/boto
